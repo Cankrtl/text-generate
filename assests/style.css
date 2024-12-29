@@ -1,0 +1,66 @@
+
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+}
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+input, select {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background: linear-gradient(135deg, #00a2ff, #ad246f);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background: linear-gradient(135deg, #ad246f, #00a2ff);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+  max-width: 100%; 
+  word-wrap: break-word; 
+  white-space: normal; 
+  line-height: 25px;
+}
+
+.animated-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ff7eb3, #8e44ad, #3498db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: color-shift 3s infinite; 
+}
